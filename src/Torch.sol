@@ -124,7 +124,7 @@ contract Torch is ERC721("Torch", unicode"🔥"), Ownable, ReentrancyGuard {
 
         address from = ownerOf(1);
         // increase the pass amount
-        passAmt += 0.001 ether;
+        passAmt += 0.0001 ether;
 
         // set aside withdrawable amount (1% of the torch value)
         uint passFee = msg.value / 100;

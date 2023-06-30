@@ -33,6 +33,7 @@ class MyHandler(FileSystemEventHandler):
 
     def recompile_and_reload(self):
         # Run the 'forge test' command
+        print('Recompiling and reloading...')
         call(FORGE_TEST_CMD, shell=True)
 
 if __name__ == "__main__":

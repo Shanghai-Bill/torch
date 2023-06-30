@@ -25,7 +25,7 @@ python3 -m venv torch  # Creates a venv in a 'torch' directory
 To activate the virtual environment, navigate to the directory where the venv folder is located and run:
 
 ```shell
-source venv/bin/activate  # Activates the virtual environment
+source torch/bin/activate  # Activates the virtual environment
 ```
 
 You should see the name of your venv before your shell prompt. Remember, you'll need to activate the venv in two separate terminals to run both the server and the watcher.
@@ -53,7 +53,7 @@ You'll likely only need to update the values for ABSOLUTE_SRC_DIR_PATH and ABSOL
 To start the server on port 8000, run:
 
 ```shell
-python3 server/server.py
+python3 server/app.py
 ```
 
 ## Start the Watcher
